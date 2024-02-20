@@ -1,6 +1,8 @@
 #include "M5CoreInk.h"
 //#include <TimerOne.h>
 #include <Ticker.h> // ESP compatible timer
+
+// https://github.com/raszhivin/arpeggiator
 #include "engine.h"
 
 // default arpeggio settings
