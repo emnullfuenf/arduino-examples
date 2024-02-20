@@ -19,7 +19,7 @@ Libraries needed:
 */
 
 /* iPad Pro key release issue:
-Add delay(20) in /Users/m/Library/Arduino15/packages/arduino/hardware/mbed_rp2040/4.0.2/libraries/USBHID/src/USBKeyboard.cpp
+Add delay(20) in USBKeyboard.cpp
 
 if (!send(&report)) {
         _mutex.unlock();
